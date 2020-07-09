@@ -14,7 +14,11 @@
     "outDir": "dist/lib",
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "actions/*": [ "app/actions/*" ]
+    }
   },
   "include": [
     "src"
